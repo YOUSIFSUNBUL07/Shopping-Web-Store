@@ -1,0 +1,413 @@
+ 
+
+
+html{
+  background-image: linear-gradient(rgb(117, 147, 236),rgb(248, 49, 165), rgba(255, 252, 101, 0.703),rgb(52, 103, 255),rgb(254, 8, 241),rgb(254, 8, 241));
+  /* background-image: linear-gradient(rgb(117, 147, 236),rgb(255, 88, 186), rgba(255, 252, 77, 0.788),rgb(255, 20, 243), rgb(2, 196, 255)); */
+}
+.invisible{
+  display: none;
+}
+.visibile{
+  background-image: linear-gradient(rgb(117, 147, 236),rgb(179, 0, 255), rgba(0, 51, 255, 0.703),rgb(52, 103, 255));;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  font-size: xxx-large;
+}
+#alor{
+}
+.black{
+  display: none;}
+
+  .product {
+/* width: 50px;
+box-sizing: border-box; */
+    /* z-index: 1; */
+       width: 500px;  /*border: 4px red solid; */
+
+  }
+  
+  .product:hover,
+  .product:focus-within {
+    /* z-index: 9999; */
+  }
+
+
+
+
+  .product-img {
+    transition: transform 0.6s ease;
+/* 
+  height: 12.5rem;
+  width: 28.125rem; */
+height: 250%;
+width: 250%;
+/* object-fit: cover; */
+max-width: 28.125rem;
+max-height: 12.5rem;
+
+pointer-events: all;
+  }
+  .product-img:hover {
+    transform: translateY(-0.75rem);
+  border: 0.075rem solid rgb(14, 255, 243);
+  text-shadow: 0.0625rem 0.0625rem 0.1875rem;
+  box-shadow: 0.5rem 0.5rem 3.25rem 0 rgb(29, 255, 225);
+  backdrop-filter: blur(  1rem );
+  -webkit-backdrop-filter: blur(  1rem );
+  border-radius: 0.4375rem;
+  }
+/* .icon-cart{
+  transform: translateY(-31.25rem);
+} */
+#buyPlace{
+  height: 12.5rem;
+  width: 28.125rem;
+  transform: translateY(-0.625rem);
+}
+input{
+background: rgba( 16, 240, 204, 0.6 );
+box-shadow: 0 0.5rem 2rem 0 rgba(141, 143, 216, 0.241);
+backdrop-filter: blur( 0.4375rem );
+-webkit-backdrop-filter: blur( 0.4375rem );
+border-radius: 0.625rem;
+border: 0.0625rem solid rgba( 255, 255, 255, 0.18 );;
+transition: 1s;
+}
+input:hover{
+  /* background: rgba( 16, 240, 204, 1 );
+  box-shadow: 0 0.5rem 2rem 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur(  1rem);
+  -webkit-backdrop-filter: blur( 1rem );
+  border-radius: 0.625rem;
+  border: 0.0625rem solid rgba( 255, 255, 255, 0.18 ); */
+ background: rgba(16, 240, 204, 1);
+  box-shadow: 
+    0 0 10px rgba(16, 240, 204, 0.8),
+    0 0 20px rgba(16, 240, 204, 0.6),
+    0 0 30px rgba(16, 240, 204, 0.4),
+    0 0.5rem 2rem rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(1rem);
+  -webkit-backdrop-filter: blur(1rem);
+  border-radius: 0.625rem;
+  border: 0.0625rem solid rgba(255, 255, 255, 0.18);
+  color: white;
+  text-shadow: 
+    0 0 5px white,
+    0 0 10px rgba(16, 240, 204, 0.8),
+    0 0 15px rgba(16, 240, 204, 1);
+  transition: all 0.3s ease;
+}
+/* 
+.icon-cart:before {
+  content: "\e93a";
+} */
+.iprice{
+  color: rgb(0, 255, 0);
+  font-weight: 900;
+  font-size: xx-large;
+  transition: text-shadow 0.5s;
+  transition: color 1.0s;
+  /* border: 5px red solid; */
+  width: 195px;
+  height: 30.6px;
+  padding-left: 3px;
+  margin-bottom: 8.5px;
+  }
+  
+  .iprice:hover{
+    /* text-shadow: 0rem 0rem 0.125rem rgb(0, 255, 0), 0rem 0rem 0.0625rem rgb(102, 255, 0) ;
+    color: rgb(72, 255, 0); */
+
+    text-shadow: 0rem 0rem 0.125rem rgb(255, 0, 187), 0rem 0rem 0.0625rem rgb(208, 0, 255) ;
+    color: rgb(157, 0, 255);
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+/* 
+#lamborgeeneeimg{
+  
+} */
+
+#lamborgeenee{
+  transform: translateY(-1.71px);
+  position: relative;
+  /* z-index: 1001; */
+  /* z-index: 2; */
+
+  /* width: 500px; */
+  /* height: 50px; */
+}
+#house1{
+/* padding-left: 32.5rem; */
+transform: translateY(0.4275rem);
+    margin-top: -19.1875rem;
+font-size: 95%;;
+position: relative;
+  /* width: 500px; */
+
+  margin-left: 520px;
+/* z-index: 1001; */
+}
+#house1img{
+
+}
+#house2{
+  transform: translateY(-0.6625rem);
+}
+#house2img{
+}
+
+#s25img{
+  margin-left: -2.0625rem;
+}
+#s25{
+  transform: translateY(-0rem);
+  margin-left: 34.375rem;
+  margin-top: -19.3125rem;
+}
+#iphone15{
+  transform: translateY(-0.5625rem);
+}
+#iphone15img{
+}
+#RichLaptop{
+  margin-left: 32.21875rem;
+  margin-top: -19.375rem;
+  transform: translateY(-0rem);
+}
+#RichLaptopimg{
+}
+#ps5{
+  transform: translateY(-0.5625rem);
+}
+#ps5img{
+}
+#applewatch{
+  margin-left: 32.21875rem;
+  margin-top: -19.375rem;
+  transform: translateY(-0.0625rem);
+}
+#applewatchimg{
+}
+#KNY{
+  transform: translateY(-0.5625rem);
+}
+#KNYimg{
+}
+#harry{ 
+  margin-left: 32.21875rem;
+  margin-top: -19.3125rem;
+  transform: translateY(-0.1875rem);
+}
+#harryimg{
+}
+#S7{
+  position: absolute;
+bottom: -75.5625rem;
+}
+#s7img{
+}
+#cube{
+  margin-left: 32.21875rem;
+
+  margin-top: -1.8125rem;
+}
+#cubeimg{
+
+}
+#ferrari{
+  position:absolute;
+  left: 65.19375rem;
+  top: 13.250rem;
+  /* z-index: 1001; */
+}
+#ferrariimg{ 
+}
+#marc{
+  position: absolute;
+  left: 65.09375rem;
+  top: 30.9425rem;
+}
+#marcimg{
+}
+#oxford{
+  position: absolute;
+
+    left: 65.09375rem;
+  top: 48.9675rem;
+}
+#oxfordimg{
+}
+#yugi{
+  position: absolute;
+
+    left: 65.09375rem;
+  /* top: 84.25rem; */
+    transform: translateY(-40.69rem);
+}
+#yugiimg{
+}
+  #harvard{
+  position: absolute;
+
+    left: 65.09375rem;
+  top: 66.9925rem;
+}
+#harvardimg{ }
+#addobe{
+  position: absolute;
+  left: 65.09375rem;
+  top: 103.3125rem;
+}
+#addobeimg{
+}
+.father{
+  display: flex;
+flex-wrap: wrap;
+gap: 20px;
+
+}
+ .Finish {
+  font-style: initial;
+  justify-content: center;
+  text-align: center;
+  font-size: xx-large;
+  font-weight: 900;
+  background-color: rgb(194, 13, 207);
+  color: white;
+  padding: 1em 2em;
+  border-radius: 10px;
+  animation: neonPulse 1.2s ease-in-out infinite alternate;
+  box-shadow: 0 0 25px rgb(194, 13, 207);
+  text-shadow:
+    0 0 10px white,
+    0 0 20px magenta,
+    0 0 30px magenta;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, text-shadow 0.2s ease;
+  cursor: pointer;
+}
+
+/* Continuous soft pulse glow */
+/* @keyframes neonPulse {
+  from {
+    box-shadow: 
+      0 0 15px rgba(255, 0, 255, 0.6), 
+      0 0 30px rgba(255, 0, 255, 0.8);
+    text-shadow:
+      0 0 8px white,
+      0 0 16px magenta,
+      0 0 24px magenta;
+  }
+  to {
+    box-shadow: 
+      0 0 25px rgba(255, 0, 255, 0.8), 
+      0 0 50px rgba(255, 0, 255, 1);
+    text-shadow:
+      0 0 10px white,
+      0 0 24px magenta,
+      0 0 32px magenta;
+  }
+} */
+@keyframes neonPulse {
+  from {
+    box-shadow: 0 0 10px rgba(255, 0, 255, 0.6);
+    text-shadow: 0 0 6px white, 0 0 12px magenta;
+  }
+  to {
+    box-shadow: 0 0 20px rgba(255, 0, 255, 0.8);
+    text-shadow: 0 0 8px white, 0 0 18px magenta;
+  }
+}
+
+.neon {
+  animation: neonPulse 2s ease-in-out infinite;
+  will-change: box-shadow, text-shadow;
+}
+/* Clean and light hover boost */
+.Finish:hover {
+  transform: scale(1.03);
+  box-shadow: 
+    0 0 30px magenta,
+    0 0 60px magenta;
+  text-shadow:
+    0 0 12px white,
+    0 0 28px magenta,
+    0 0 36px magenta;
+}
+
+
+
+
+.button-29 {
+  align-items: center;
+  appearance: none;
+  background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ff 100%);
+  border: 0;
+  border-radius: 6px;
+  box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono",monospace;
+  height: 48px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: 18px;
+}
+
+.button-29:focus {
+  box-shadow: #3c4fe0 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+}
+
+.button-29:hover {
+  box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.button-29:active {
+  box-shadow: #3c4fe0 0 3px 7px inset;
+  transform: translateY(2px);
+}
+
+
+
+
+
+
+
+
+
+/* CSS */
